@@ -1,3 +1,9 @@
+title: "Assigment - kNN DIY"
+author:
+  - Teun Vlassak (Author)
+  - Danny Bannink (Reviewer)
+date: 06-10-2022
+
 ```{r}
 library(tidyverse)
 library(class)
