@@ -74,7 +74,7 @@ testDTM <- cleanDTM[-trainIndex, ]
 ```
 
 ```{r}
-freqWords <- trainDTM %>% findFreqTerms(300)
+freqWords <- trainDTM %>% findFreqTerms(1000)
 trainDTM <-  DocumentTermMatrix(trainCorpus, list(dictionary = freqWords))
 testDTM <-  DocumentTermMatrix(testCorpus, list(dictionary = freqWords))
 ```
